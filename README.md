@@ -39,7 +39,7 @@ class ExampleResponse implements Responsable
     }
 }
 ```
-##Example
+## Example
 
 lets say in your controller you are doing something like that
 
