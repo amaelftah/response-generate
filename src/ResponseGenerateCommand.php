@@ -11,7 +11,7 @@ class ResponseGenerateCommand extends GeneratorCommand
      *
      * @var string
      */
-    protected $name = 'generate:response {className}';
+    protected $name = 'generate:response';
 
     /**
      * The console command description.
