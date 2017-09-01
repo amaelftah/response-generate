@@ -1,0 +1,36 @@
+{
+    "name": "te7a-houdini/response-generate",
+    "description": "it will add generate:response command to help you in scaffolding response classes",
+    "keywords": [
+        "te7a-houdini",
+        "laravel",
+        "response"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed-Te7a",
+            "email": "ahmedabdelftah95165@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0",
+        "illuminate/console": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Te7aHoudini\\ResponseGenerate\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Te7aHoudini\\ResponseGenerate\\ResponseGenerateServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
